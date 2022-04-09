@@ -14,7 +14,7 @@ const Header = ({ staticEmpty }) => {
       <div className='container d-flex flex-column flex-md-row align-items-center p-3'>
         <h4 className='my-0 mr-md-auto font-weight-normal'>
           <Link to='/' className='text-white'>
-            ComplexApp!
+            ComplexApp
           </Link>
         </h4>
         {!staticEmpty ? headerContent : ''}
